@@ -93,8 +93,8 @@ tensorflow-io-gcs-filesystem==0.37.1
 termcolor==3.1.0
 tifffile==2025.5.10
 tomli==2.2.1
-torch==1.13.1
-torchvision==0.14.1
+torch==1.13.1+cpu
+torchvision
 tqdm==4.67.1
 typing-inspection==0.4.1
 typing_extensions==4.14.0
