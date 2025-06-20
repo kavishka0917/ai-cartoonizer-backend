@@ -13,7 +13,9 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000", # The default port for create-react-app
-    "http://127.0.0.1:3000", # Another common local development address
+    "http://127.0.0.1:3000",
+    "https://ai-cartoonizer-frontend.vercel.app",
+    # Another common local development address
     # You can add more origins here if your frontend is hosted elsewhere (e.g., your deployment URL)
 ]
 
